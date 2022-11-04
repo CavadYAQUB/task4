@@ -1,0 +1,115 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header{
+
+overflow: auto;
+position: fixed;
+padding: 20px 5rem;
+width: 100%;
+
+}
+.logo svg{
+width: 40%;
+float: left;
+}
+.navbar{
+float: right;
+margin-top: 20px;
+}
+.navbar a{
+text-decoration: none;
+font-size: 16px;
+color: #ffffff;
+margin-left: 30px;
+
+}
+.slider{
+background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+background-size: cover;
+background-position: center;
+text-align: center;
+padding: 20rem 0;
+}
+.slider h3{
+    color: #ffffff;
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.slider h1{
+    font-size: 72px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.slider a{
+color: #ffffff;
+background-color: #ffc800;
+padding: 20px 40px;
+font-size: 18px;
+border-radius: 10px;
+text-decoration: none;
+}
+.services{
+background-color: #ffffff;
+
+}
+.services h1,h3{
+text-align: center;
+
+
+}
+.services h1{
+    color:#212529;
+    font-size: 40px;
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+.services h3{
+    color: #6c757d;
+    font-size: 16px;
+    font-style: italic;
+}
+.box{
+    width: 20%;
+    vertical-align: bottom;
+    float: left;
+    margin: 2% 6%;
+}
+.box img{
+    width: 100%;
+}
+.box h1{
+    color: #212529;
+    font-size: 23px;
+    margin: 16px 0;
+}
+.box h3{
+color: #6c757d;
+font-size: 16px;
+margin: 0 0 16px;
+}
+.pt-box{
+    width: 31%;
+    float: left;
+    margin: 30px 1%;
+
+}
+.pt-box img{
+    width: 100%;
+    text-align: center;
+     
+    
+}
+.pt-text{
+ background-color:#F8F9FA ;
+ padding: 15px;
+}
+.portfolio {
+display: inline-block;
+margin: 4rem 0;
+text-align: center;
+
+}
